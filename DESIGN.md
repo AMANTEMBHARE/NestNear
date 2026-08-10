@@ -121,3 +121,48 @@ Payments
 Complaint System
 
 
+## 6. Database Design
+
+User 
+College
+PG 
+FoodService 
+Review  
+Admission
+Bookmark  this are entites which will be in databases
+
+and have also understand relationships
+
+
+
+
+### 7. API Design
+
+#### Authentication
+
+POST /auth/register
+
+POST /auth/login
+
+POST /auth/logout
+
+GET /auth/me
+
+
+#### PG
+
+POST /pgs
+
+GET /pgs
+
+GET /pgs/:id
+
+PUT /pgs/:id
+
+DELETE /pgs/:id
+
+#### College
+
+#### Food Service
+
+#### Admission
