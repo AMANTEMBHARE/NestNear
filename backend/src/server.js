@@ -8,6 +8,7 @@ const healthRoutes = require("./routes/health.routes");
 const testRoutes = require("./routes/test.routes");
 const authRoutes = require("./routes/auth.routes");
 const userRoutes = require("./routes/user.routes");
+const pgRoutes = require("./routes/pg.routes");
 
 
 const app = express();
@@ -18,6 +19,7 @@ app.use(healthRoutes);
 app.use(testRoutes);
 app.use(authRoutes);
 app.use(userRoutes);
+app.use(pgRoutes);
 
 const startServer = async () => {
     try {
